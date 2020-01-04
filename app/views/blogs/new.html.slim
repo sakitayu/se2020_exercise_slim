@@ -1,0 +1,13 @@
+= form_with(model: Blog.new, local: true) do |form|
+  div.blog_title
+    = form.label :title
+    = form.text_field :title
+  div.blog_content
+    = form.label :content
+    = form.text_field :content
+  = form.submit
+
+
+
+
+
