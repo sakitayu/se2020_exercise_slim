@@ -1,2 +1,4 @@
-h1 Blogs#show
-p Find me in app/views/blogs/show.html.slim
+h1 ブログ詳細画面
+p = "タイトル: #{@blog.title}"
+p 内容: #{@blog.content}
+/　↑上をリファクタりんしたのが下
